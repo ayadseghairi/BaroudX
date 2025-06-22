@@ -180,7 +180,7 @@ BaroudX/
 
 ## ✍️ Author
 
-**Ayad Seghairi**
+**Ayad Seghiri**
 🇩🇿 Cybersecurity Developer • Offensive Security Enthusiast
 🔗 [GitHub](https://github.com/ayadseghairi) • [LinkedIn](https://www.linkedin.com/in/ayad-seghiri)
 
