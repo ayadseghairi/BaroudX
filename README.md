@@ -43,6 +43,26 @@ This will:
 
 ---
 
+
+### 🔐 Environment Configuration (`.env` file)
+
+The tool uses a `.env` file to load sensitive environment variables. The following variable must be set before using certain modules (like Shodan enumeration):
+
+```env
+SHODAN_API_KEY=your_shodan_api_key_here
+```
+
+#### Steps:
+
+1. Create a `.env` file in the root directory of the project.
+2. Paste your Shodan API key as shown above.
+3. You can get a free Shodan API key by registering at:
+   🔗 [https://account.shodan.io/register](https://account.shodan.io/register)
+
+**⚠️ Do not share your `.env` file or expose your API key publicly.**
+
+
+
 ## ⚙️ Usage
 
 ```bash
@@ -162,7 +182,7 @@ BaroudX/
 
 **Ayad Seghairi**
 🇩🇿 Cybersecurity Developer • Offensive Security Enthusiast
-🔗 [GitHub](https://github.com/ayadseghairi) • [LinkedIn](https://linkedin.com/in/ayadseghairi)
+🔗 [GitHub](https://github.com/ayadseghairi) • [LinkedIn](https://www.linkedin.com/in/ayad-seghiri)
 
 ---
 
@@ -170,4 +190,3 @@ BaroudX/
 
 This tool is provided **as-is** and is intended only for **legal use** in testing environments or with explicit permission.
 By using BaroudX, you agree to **comply with all applicable laws** and regulations.
-````
