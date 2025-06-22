@@ -28,8 +28,6 @@ git clone https://github.com/ayadseghairi/BaroudX.git
 cd BaroudX
 ```
 
-````
-
 ### 2. Run the installer
 
 ```bash
