@@ -84,7 +84,7 @@ sudo -E PYTHONPATH="$PYTHONPATH" python3 main.py --module <module> --target <tar
 ## 🔐 Crypto Example
 
 ```bash
-sudo python3 main.py --module crypto --target "5f4dcc3b5aa765d61d8327deb882cf99"
+sudo -E PYTHONPATH="$PYTHONPATH" python3 main.py --module crypto --target "5f4dcc3b5aa765d61d8327deb882cf99"
 ```
 
 Optional: You can place `rockyou.txt` in `/usr/share/wordlists/` or change path in `crypto_tools.py`.
@@ -94,7 +94,7 @@ Optional: You can place `rockyou.txt` in `/usr/share/wordlists/` or change path 
 ## 🧠 Memory Analysis Example
 
 ```bash
-sudo python3 main.py --module memory --target ./dump.mem
+sudo -E PYTHONPATH="$PYTHONPATH" python3 main.py --module memory --target ./dump.mem
 ```
 
 Supports ELF/PE/memory images, `.pyc`, shellcode.
@@ -104,7 +104,7 @@ Supports ELF/PE/memory images, `.pyc`, shellcode.
 ## 🌐 Network Scanning Example
 
 ```bash
-sudo python3 main.py --module network --nmap-scan --detect-os --packets 200
+sudo -E PYTHONPATH="$PYTHONPATH" python3 main.py --module network --nmap-scan --detect-os --packets 200
 ```
 
 This will:
@@ -120,7 +120,7 @@ This will:
 ## 📸 Webcam Scanner
 
 ```bash
-sudo python3 main.py --module webcam
+sudo -E PYTHONPATH="$PYTHONPATH" python3 main.py --module webcam
 ```
 
 Detects USB and IP cameras, captures one frame from each.
@@ -132,7 +132,7 @@ Detects USB and IP cameras, captures one frame from each.
 > ⚠️ Use in CTF labs or test environments **only**.
 
 ```bash
-sudo python3 main.py --module ddos --target https://example.com --ddos-type http --threads 100 --duration 30
+sudo -E PYTHONPATH="$PYTHONPATH" python3 main.py --module ddos --target https://example.com --ddos-type http --threads 100 --duration 30
 ```
 
 Supported attack types:
